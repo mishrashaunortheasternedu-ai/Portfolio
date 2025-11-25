@@ -1,4 +1,3 @@
-@ -1,65 +1,578 @@
 'use client';
 
 import React, { useState } from 'react';
@@ -73,6 +72,7 @@ const featuredProjects: Project[] = [
     title: 'Liquid Glass Portfolio',
     description: 'A stunning portfolio website featuring liquid glass morphism effects and dynamic animations built with Next.js and Framer Motion.',
     technologies: ['Next.js', 'React', 'Framer Motion', 'Tailwind CSS'],
+    demoUrl: '/window.svg',
     demoType: 'screenshot',
     liveUrl: 'https://github.com/username/portfolio',
     githubUrl: 'https://github.com/username/portfolio',
@@ -93,6 +93,7 @@ const featuredProjects: Project[] = [
     title: 'Weather Dashboard',
     description: 'Interactive weather dashboard with location-based forecasts, historical data visualization, and beautiful weather animations.',
     technologies: ['Vue.js', 'Chart.js', 'Weather API', 'CSS3'],
+    demoUrl: '/globe.svg',
     demoType: 'screenshot',
     liveUrl: 'https://weather-dashboard-demo.com',
     githubUrl: 'https://github.com/username/weather-dashboard',
